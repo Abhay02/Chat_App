@@ -15,7 +15,7 @@ app.use(cookiesParser());
 
 app.use(
   cors({
-    origin: "https://chatapp024.netlify.app", // Allow requests from this origin
+    origin: "http://localhost:5173", // Allow requests from this origin
     credentials: true, // Enable cookies if needed
   })
 );
